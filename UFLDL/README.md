@@ -1,3 +1,3 @@
 # UFLDL作业及笔记
 
-[note](http://ufldl.stanford.edu/tutorial/)
+[官方NOTE](http://ufldl.stanford.edu/tutorial/)
