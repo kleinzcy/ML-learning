@@ -6,7 +6,7 @@
 
 * Graph
 
-   Tensorflow是按照计算图定义op，每一个op都是计算图中的节点。可以自定义计算图，`graph=tf.Graph()`，再在这个graph中定义op，然后在Session中指定graph，运行定义的op即可。当然，Tensorflow中也有默认计算图，它无需用户定义。
+   Tensorflow是按照计算图定义op，每一个op都是计算图中的节点。这里的op，全称operation，它代指一切运算，例如加减乘除、卷积等等。可以自定义计算图，`graph=tf.Graph()`，再在这个graph中定义op，然后在Session中指定graph，运行定义的op即可。当然，Tensorflow中也有默认计算图，它无需用户定义。
    ```
    graph=tf.Graph()
    with grahp.as_default():
@@ -20,6 +20,7 @@
 
    Tensor是Tensorflow的数据模型，它不保存实际的数据，它保存的是如何得到这些数据的过程，即Graph中op。
    `Tensor("add:0", shape(2,), dtype=float32)`
+   
    上述Tensor中，说明了Tensor中包含三种属性，**name, shape, type**，name通过"node:src_output"的形式给出，node为结点的名称，src_output表示当前Tensor来自节点的第几个输出。shape就是数据的维度。dtype就是数据的类型，主要包含实数（tf.float32, tf.float64），整数（tf.int8, tf.int16, tf.int32, tf.int64, tf.unit8）、布尔型（tf.bool）和复数（tf.complex64, tf.complex128）。要注意是的是op中数据类型要一致，否则会报错，因此养成一个设置dtype的好习惯。
    
 * Session
@@ -62,5 +63,9 @@
 * Placeholder
 
    占位符，为输入数据做准备。节省计算图中的资源。
+   
+* Loss function
+
+   loss即损失函数，是整个模型优化的目标，它描述了预测值与实际值之间的关系。它是机器学习模型中不可或缺的部分，loss的种类比较多，大致分为回归损失和分类损失，因为回归和分类的目的不同，所以它们的损失函数也不相同。我首先介绍目前常用损失函数，并给出tensorflow代码实现。
    
 **下次完成激活函数、损失函数、优化函数的总结**
