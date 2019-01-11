@@ -119,5 +119,5 @@ model中的方法以及参数含义：
 	* **AHP模型**:分层决策的过程。key word:1、建立层次结构模型。2、构造成对比较矩阵。3、计算权向量并做一致性检验。4、计算组合权向量并做组合一致性检验。
 
 
-<font color='red'. size=5>**idea:**</font><font size=5>we focus on problem B(discrete problem) and C(data insight). For me, I will collect some classical algorithm, and you also can recommend the algorithm to me. What's more, I will pay my attention to some library, like scipy,numpy,pandas,matplotlib,seaborn,scikit-learn. Don't worry, I have learned a lot about them before.</font> 
+<font color='red' size=5>**idea:**</font><font size=5>we focus on problem B(discrete problem) and C(data insight). For me, I will collect some classical algorithm, and you also can recommend the algorithm to me. What's more, I will pay my attention to some library, like scipy,numpy,pandas,matplotlib,seaborn,scikit-learn. Don't worry, I have learned a lot about them before.</font> 
 
