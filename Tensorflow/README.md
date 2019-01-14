@@ -70,6 +70,12 @@
    
 * Tensorboard
 
-   可视化工具，能可视化训练过程与计算流图，能很好的帮助我们理解模型。[detail](https://tensorflow.google.cn/api_docs/python/tf/summary)
+   可视化工具，能可视化训练过程与计算流图，能很好的帮助我们理解模型。[detail](https://tensorflow.google.cn/api_docs/python/tf/summary) and [this](https://tensorflow.google.cn/guide/summaries_and_tensorboard)
+   
+   * tf.summary.histogram(name, value): 显示特定层中激活函数的分布情况，或者显示梯度或权重的分布情况。
+   
+   * tf.summary.scalar(name, value):显示学习率，损失函数，准确率随时间的变化。
+   
+   * tf.summary.FileWriter(SUMMARY_DIR, graph):如果给了graph，就会显示graph。
    
 **下次完成激活函数、损失函数、优化函数的总结**
