@@ -78,7 +78,8 @@
    
    * tf.summary.FileWriter(SUMMARY_DIR, graph):如果给了graph，就会显示graph。
    
-   利用
+   在终端输入
    `tensorboard --logdir=path/to/log-directory`
+   打开记录文件，终端会输出一个端口，在浏览器中打开该端口即可。
    
 **下次完成激活函数、损失函数、优化函数的总结**
