@@ -34,7 +34,7 @@
 
 * Variable
 
-   Variable的作用就是更新和保存神经网络中的参数，它是一个特殊的张量，它里面有两种操作，assign和read，assign是赋值操作，下表给出一些[随机数生成函数](https://tensorflow.google.cn/api_docs/python/tf/random)。
+   Variable的作用就是更新和保存神经网络中的参数，它是一个特殊的张量，它里面有两种操作，assign和read，assign是赋值操作，read是读取操作。下表给出一些[随机数生成函数](https://tensorflow.google.cn/api_docs/python/tf/random)。
    
    函数名称|随机数分布|主要参数
    -|-|-
@@ -77,5 +77,8 @@
    * tf.summary.scalar(name, value):显示学习率，损失函数，准确率随时间的变化。
    
    * tf.summary.FileWriter(SUMMARY_DIR, graph):如果给了graph，就会显示graph。
+   
+   利用
+   `tensorboard --logdir=path/to/log-directory`
    
 **下次完成激活函数、损失函数、优化函数的总结**
