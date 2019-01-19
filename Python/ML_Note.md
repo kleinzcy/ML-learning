@@ -17,13 +17,15 @@
 
 * join方法：str.join(list)，以str连接list，转换成一个str。
 
-* **shutil模块**:
+* **[shutil模块](https://www.cnblogs.com/zhangboblogs/p/7821702.html)**:
+
+    * copy(来源地址，目标地址)
 
 * **glob模块**:glob模块提供了一个函数用于从目录通配符搜索中生成文件列表
 
 ```
-import glob  
+ import glob  
 
-glob.glob('*.xml')
+ glob.glob('*.xml')
 
 ```
