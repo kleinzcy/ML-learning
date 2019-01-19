@@ -29,3 +29,13 @@
 
  glob.glob('*.xml')
 ```
+
+* **json**:
+   
+   * loads:加载list成json。
+   
+   * load:加载文件。
+   
+   * dumps:将list转换成json格式储存
+   
+   * dump：接受两个参数，一个是文件名，一个是对象。
