@@ -14,8 +14,9 @@
 	transform的输入为，与fit输入的n相同，m可以不同。并紧接一个.toarray()将稀疏编码转换成list。
 
 
+## 内置模块 ##
 
-* join方法：str.join(list)，以str连接list，转换成一个str。
+* **join方法**：str.join(list)，以str连接list，转换成一个str。
 
 * **[shutil模块](https://www.cnblogs.com/zhangboblogs/p/7821702.html)**:
 
@@ -27,5 +28,4 @@
  import glob  
 
  glob.glob('*.xml')
-
 ```
