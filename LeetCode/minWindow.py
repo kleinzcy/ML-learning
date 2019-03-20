@@ -1,5 +1,5 @@
 # target字典存储目标状态，d为当前转态，label存储当前标签。
-# 时间复杂度O(m*n)，空间复杂度
+# 时间复杂度O(m*n)，空间复杂度O(m)
 
 
 class Solution:
