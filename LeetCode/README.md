@@ -16,3 +16,5 @@
 * container-with-most-water: [problem](https://leetcode-cn.com/problems/container-with-most-water/),[solution](https://github.com/kleinzcy/ML-learning/blob/master/LeetCode/maxArea.py),太菜了，简单却没在一定时间内想出来。暴力方法有很多冗余的计算，找到这些计算的本质，什么时候会冗余计算，怎样避免这些冗余计算，就可以找到复杂度低的算法。如果智商高，，，
 
 * integer-to-roman: [problem](https://leetcode-cn.com/problems/integer-to-roman/),[solution](https://github.com/kleinzcy/ML-learning/blob/master/LeetCode/intToRoman.py)
+
+* minimum-window-substring: [problem](https://leetcode-cn.com/problems/minimum-window-substring)
