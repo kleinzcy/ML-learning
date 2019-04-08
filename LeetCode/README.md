@@ -18,3 +18,5 @@
 * integer-to-roman: [problem](https://leetcode-cn.com/problems/integer-to-roman/),[solution](https://github.com/kleinzcy/ML-learning/blob/master/LeetCode/intToRoman.py)
 
 * minimum-window-substring: [problem](https://leetcode-cn.com/problems/minimum-window-substring)
+
+* generateParenthesis:[https://leetcode-cn.com/problems/generate-parentheses/],**这个问题非常好，我自己的做法比较暴力，官方的解答，我还看不懂。**
