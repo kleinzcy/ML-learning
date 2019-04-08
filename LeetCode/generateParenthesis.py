@@ -1,3 +1,4 @@
+# 把这个问题当做插空问题，首先初始化states = ['('*n+')']，然后插入')',时间复杂度比较高，四层循环，很多重复计算，这里我使用集合来避免了重复。
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         def generate(states):
@@ -35,3 +36,21 @@ class Solution:
             states = generate(states)
             
         return states
+
+    
+#递归解法，代码简洁看不懂
+# 递归终止条件是字符串的长度达到2*N,left和right记录左括号和右括号的数目。
+class Solution(object):
+    def generateParenthesis(self, N):
+        ans = []
+        def backtrack(S = '', left = 0, right = 0):
+            if len(S) == 2 * N:
+                ans.append(S)
+                return
+            if left < N:
+                backtrack(S+'(', left+1, right)
+            if right < left:
+                backtrack(S+')', left, right+1)
+
+        backtrack()
+        return ans
