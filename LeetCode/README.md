@@ -20,3 +20,5 @@
 * minimum-window-substring: [problem](https://leetcode-cn.com/problems/minimum-window-substring)
 
 * generateParenthesis:[problem](https://leetcode-cn.com/problems/generate-parentheses/),**这个问题非常好，我自己的做法比较暴力，官方的解答，我还看不懂。**
+
+* repeated-substring-pattern:[problem](https://leetcode-cn.com/problems/repeated-substring-pattern/),字符串处理还有待积累。
